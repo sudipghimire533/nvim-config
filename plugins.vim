@@ -24,6 +24,9 @@ Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 " A nice statusline
 Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 
+" Tree on side?
+Plug 'kyazdani42/nvim-tree.lua'
+
 call plug#end()
 
 " Load config
@@ -33,3 +36,4 @@ luafile ~/.config/nvim/config-treesitter.lua
 luafile ~/.config/nvim/config-lspsaga.lua
 luafile ~/.config/nvim/config-lsp.lua
 luafile ~/.config/nvim/config-galaxyline.lua
+source ~/.config/nvim/config-tree.vim
